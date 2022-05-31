@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RSAMessenger.Chats">
+    <NavigationPage.TitleView>
+        <StackLayout>
+            <Label Text="Chats" TextColor="White" FontSize="20"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+    <ContentPage.Content>
+        <StackLayout>
+            <Button x:Name="refreshButton" Text="REFRESH" HeightRequest="55"></Button>
+            <ListView x:Name="chatItemList" BackgroundColor="Silver" SeparatorColor="Black"></ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RSAMessenger.MainPage">
+    <NavigationPage.TitleView>
+        <StackLayout>
+            <Label Text="RSAMessanger" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+
+    <StackLayout Padding="0,10,0,0">
+        <Label Text="ACCOUNT SETTING" HorizontalTextAlignment="Center" TextColor="White" BackgroundColor="Black" FontSize="25"/>
+        <Entry x:Name="nicknameEntry" Placeholder="Enter your nickname"></Entry>
+        <FlexLayout Direction="Row" HorizontalOptions="Start" Wrap="NoWrap" HeightRequest="55">
+            <Button x:Name="saveButton" Text="REGISTER" WidthRequest="100" HorizontalOptions="Start"></Button>
+            <Button x:Name="resetButton" IsEnabled="false" Text="RESET" WidthRequest="100" HorizontalOptions="Start"></Button>
+            <Label x:Name="statusLabel" Text="OFFLINE" FontSize="20" TextColor="Red"></Label>
+        </FlexLayout>
+        <Label Text="MENU" HorizontalTextAlignment="Center" TextColor="White" BackgroundColor="Black" FontSize="25"/>
+        <Button x:Name="findUserButton" Text="FIND USER" HeightRequest="70" IsEnabled="False"></Button>
+        <Button x:Name="chatsButton" Text="CHATS" HeightRequest="70" IsEnabled="False"></Button>
+    </StackLayout>
+
+</ContentPage>

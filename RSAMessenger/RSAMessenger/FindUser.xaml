@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RSAMessenger.FindUser">
+    <NavigationPage.TitleView>
+        <StackLayout>
+            <Label Text="Find User" TextColor="White" FontSize="20"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="nicknameEntry" Placeholder="Enter Nickname"></Entry>
+            <FlexLayout Direction="Row" HorizontalOptions="Start" Wrap="NoWrap" HeightRequest="55">
+                <Button x:Name="findUserButton" WidthRequest="200" Text="FIND USER" HeightRequest="55"></Button>
+                <Label x:Name="statusLabel" Text="" FontSize="20" TextColor="Red"></Label>
+            </FlexLayout>
+            <Button x:Name="startchatButton" IsEnabled="False" Text="START CHAT" HeightRequest="55"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

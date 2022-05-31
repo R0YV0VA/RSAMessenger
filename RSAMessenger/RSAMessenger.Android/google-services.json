@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "525887370452",
+    "firebase_url": "https://rsamessenger-5515c-default-rtdb.firebaseio.com",
+    "project_id": "rsamessenger-5515c",
+    "storage_bucket": "rsamessenger-5515c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525887370452:android:e65ddbb79ac13d00f1f741",
+        "android_client_info": {
+          "package_name": "com.rogram.rsamessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "525887370452-qpcfj993bbue2q96h0l9asfcegfdj2bg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZ8JFKVjg8Z9mNlMuW2cIQ4CmX1nhcE3U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "525887370452-qpcfj993bbue2q96h0l9asfcegfdj2bg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RSAMessenger.Chat">
+    <NavigationPage.TitleView>
+        <StackLayout>
+            <Label x:Name="chatNameLabel" Text="" TextColor="White" FontSize="20"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView x:Name="chatListView" IsEnabled="False" BackgroundColor="#FFFFF3"/>
+            <FlexLayout Direction="Row" HorizontalOptions="Start" Wrap="NoWrap">
+                <Entry x:Name="messageEntry" WidthRequest="350" HorizontalOptions="Start"></Entry>
+                
+            </FlexLayout>
+            <Button x:Name="sendButton" Text="SEND" WidthRequest="90"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
